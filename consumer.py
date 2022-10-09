@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     #connect database
     try:
-        engine = create_engine('postgresql://postgres:bigbang@localhost:5432/digitalskola')
+        engine = create_engine('postgresql://postgres:postgres@localhost:5430/digitalskola')
         print(f"[INFO] Successfully Connect Database .....")
     except:
         print(f"[INFO] Error Connect Database .....")
